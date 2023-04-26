@@ -1,333 +1,817 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title>Hong Ding</title>
-	<meta content="Hong Ding, dhong20123.github.io" name="keywords" />
-	<style media="screen" type="text/css">html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  border: 0pt none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0pt;
-  outline-color: invert;
-  outline-style: none;
-  outline-width: 0pt;
-  padding: 0pt;
-  vertical-align: baseline;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="author" content="Xiangteng He">
+  <!--<meta name="description" content="Research Scientist">-->
+  <link rel="alternate" hreflang="en-us" href="/">
+  <meta name="theme-color" content="#0095eb">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono"> 
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-54472398-1', 'auto');
+    ga('require', 'eventTracker');
+    ga('require', 'outboundLinkTracker');
+    ga('require', 'urlChangeTracker');
+    ga('send', 'pageview');
+  </script>
+  <script async src="//www.google-analytics.com/analytics.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Xiangteng He">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Xiangteng He">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="canonical" href="/">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="@https://twitter.com/YinCui1">
+  <meta property="twitter:creator" content="@https://twitter.com/YinCui1">
+  <meta property="og:site_name" content="Xiangteng He">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Xiangteng He">
+  <meta property="og:description" content="Research Scientist">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:updated_time" content="2021-02-08T00:00:00&#43;00:00">
 
-a {
-  color: #1772d0;
-  text-decoration:none;
-}
+  <title>Xiangteng He</title>
+  
+  
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?cbc33b0bd659ddd771c6572a53e8991a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
-a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-}
 
-a.paper {
-  font-weight: bold;
-  font-size: 12pt;
-}
-
-b.paper {
-  font-weight: bold;
-  font-size: 12pt;
-}
-
-* {
-  margin: 0pt;
-  padding: 0pt;
-}
-
-body {
-  position: relative;
-  margin: 3em auto 2em auto;
-  width: 800px;
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  background: #eee;
-}
-
-h2 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 15pt;
-  font-weight: 700;
-}
-
-h3 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-strong {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight:bold;
-}
-
-ul { 
-  list-style: circle;
-}
-
-img {
-  border: none;
-}
-
-li {
-  padding-bottom: 0.5em;
-  margin-left: 1.4em;
-}
-
-alert {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  color: #FF0000;
-}
-
-em, i {
-	font-style:italic;
-}
-
-div.section {
-  clear: both;
-  margin-bottom: 1.5em;
-  background: #eee;
-}
-
-div.spanner {
-  clear: both;
-}
-
-div.paper {
-  clear: both;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  border: 1px solid #ddd;
-  background: #fff;
-  padding: 1em 1em 1em 1em;
-}
-
-div.paper div {
-  padding-left: 230px;
-}
-
-img.paper {
-  margin-bottom: 0.5em;
-  float: left;
-  width: 200px;
-}
-
-span.blurb {
-  font-style:italic;
-  display:block;
-  margin-top:0.75em;
-  margin-bottom:0.5em;
-}
-
-pre, code {
-  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-  margin: 1em 0;
-  padding: 0;
-}
-
-div.paper pre {
-  font-size: 0.9em;
-}
-</style>
-
-<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
 </head>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">  
+      <div class="navbar-header"> 
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target=".navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="/">Xiangteng He</a>
+      </div>
+      
+      <div class="collapse navbar-collapse"> 
+        <ul class="nav navbar-nav navbar-right">  
 
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          <li class="nav-item">
+            <a href="/#Biography" data-target="#Biography">      
+              <span>Biography</span>     
+            </a>
+          </li>
 
-  ga('create', 'UA-66888300-1', 'auto');
-  ga('send', 'pageview');
+          <li class="nav-item">
+            <a href="/#News" data-target="#News">      
+              <span>News</span>     
+            </a>
+          </li>
 
-</script>
-<body>
-<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
-<div style="margin: 0px auto; width: 100%;">
-<img title="Hong DING" style="float: left; padding-left: .01em; height: 140px;" src="yifan.png" />
-<div style="padding-left: 12em; vertical-align: top; height: 120px;"><span style="line-height: 150%; font-size: 20pt;">Hong Ding</span><br />
-<span><strong>PhD</strong></span><br /> 
-<span><strong>Email  </strong>: dhong20123@126.com </span> <br /> 
-<span>I am a information and communication engineering PhD at the <a href='http://www.whut.edu.cn/'>Wuhan University of Technology</a> and supervised by <a href='http://wutinfo.whut.edu.cn/yjspy/dsjs/201804/t20180428_306007.shtml'>Quan Liu</a> .</span>
-</div>
-</div>
-</div>
-<!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
+          <li class="nav-item">
+            <a href="/#Publications" data-target="#Publications">
+              <span>Publications</span>   
+            </a>
+          </li>
 
-<div style="clear: both;">
-<div class="section">
-<h2>(<a href='https://scholar.google.com/citations?user=ksQ4JnQAAAAJ&hl=zh-CN'>Google scholar</a>)</h2>
-<div class="paper">
-Before I came to Adelaide, I was a visiting student at <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/'>MSRA</a> under the supervision of Prof.<a href='https://jingdongwang2017.github.io/'>Jingdong Wang</a>. I got my master degree and my B.Sc. degree at School of <a href = 'asee.buaa.edu.cn'>Automation Science and Electrical Engineering</a> at <a href='https://ev.buaa.edu.cn/'>Beihang University</a> supervised by Prof.<a href='http://dsd.future-lab.cn/members/qin.html'>Zengchang Qin</a>.
-<br> <br>
-</div>
-</div>
-</div>
+          <li class="nav-item">
+            <a href="/#Honors" data-target="#Honors">
+              <span>Honors</span>   
+            </a>
+          </li>
+          
+          <!--<li class="nav-item">
+            <a href="/#Competitions" data-target="#Competitions">
+              <span>Competitions</span>   
+            </a>
+          </li>-->
 
-<div style="clear: both;">
-<div class="section">
-  <h2>News</h2>
-  <div class="paper">
-    <ul>
-    <li> Mar, 2019: One <a href='2019.thecvf.com/'>CVPR</a> papers have been accepted (Oral:288/5160). </li>
-    <li> Feb, 2019: We are the 3nd winner for AI Edge Contest, on <a href='https://signate.jp/competitions/143/leaderboard'>Semantic segmentation </a> (3/90). </li>
-    <li> Nov, 2018: Come to Adelaide University for PhD career </li>
-    </ul>
+         <!-- <li class="nav-item">
+            <a href="/#Media Coverage" data-target="#Media Coverage">
+              <span>Media Coverage</span>   
+            </a>
+          </li>-->
+       
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+    <span id="homepage" style="display: none"></span><div class="container">
+     
+<div class="row">
+  <div class="col-xs-12 col-md-4">
+    <div id="profile">
+
+      
+      <div class="portrait" itemprop="image" style="background-image: url('hexiangteng.jpg');">
+      </div>
+      
+    </div>
   </div>
-</div>
-</div>
 
-<div style="clear: both;">
-<div class="section">
-<h2 id="confpapers">Publications</h2>
+  <div class="col-xs-12 col-md-8" itemprop="description">
+   </br>
+          <h3>
+            Xiangteng He 何相腾
+          </h3>
+          <p>
+          Research Assistant Professor, Peking University
+          </p>
+          <p>
+          Email: hexiangteng AT pku.edu.cn
+          </p>
+          <h3 style="padding-top:-5px"></h3>
+            <!--<a href="CV-Xiangteng He.pdf" >CV</a> / -->
+            <a href="https://scholar.google.com/citations?user=37RO0eYAAAAJ&hl=En" >Google Scholar</a>
 
-
-
-<div class="paper" id="CVPR2019"><img class="paper" src="papers/cvpr.png" title="Structured Knowledge Distillation for Semantic Segmentation" />
-<div> <strong>Structured Knowledge Distillation for Semantic Segmentation</strong><br />
-<strong>Yifan Liu</strong>, Ke Chen, Chris Liu, Zengchang Qin, Zhenbo Luo, Jingdong Wang<br />
-Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2019, <alert>[oral]</alert><br /> 
-<a href='https://arxiv.org/pdf/1903.04197.pdf'>[PDF]</a>
-<a href='https://github.com/irfanICMLL/structure_knowledge_distillation'>[Code]</a>
-</div>
-<div class="spanner"></div>
-</div>
-
-
-<div class="paper" id="ICASSP"><img class="paper" src="papers/icassp.png" title="Pixel Level Data Augmentation for Semantic Image Segmentation using Generative Adversarial Networks" />
-<div> <strong>Pixel Level Data Augmentation for Semantic Image Segmentation using Generative Adversarial Networks</strong><br />
-Shuangting Liu, Jiaqi Zhang, Yuxin Chen,<strong>Yifan Liu</strong>, Zengchang Qin, Tao Wan <br />
-IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP</strong>), 2019, <alert>[oral]</alert><br /> 
-<a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8683590'>[PDF]</a>
-
-</div>
-<div class="spanner"></div>
-</div>
-
-<div class="paper" id="PAKDD2018"><img class="paper" src="papers/pakdd.png" title="Emotion Classification with Data Augmentation Using Generative Adversarial Networks" />
-<div> <strong>Emotion Classification with Data Augmentation Using Generative Adversarial Networks</strong><br />
-Xinyue Zhu*, <strong>Yifan Liu*</strong>, Zengchang Qin, and Jiahong Li<br />  
-Pacific-Asia Conference on Knowledge Discovery and Data Mining (<strong>PAKDD</strong>), 2018, <alert>[oral]</alert><br /> 
-<a href='https://arxiv.org/pdf/1711.00648v5.pdf'>[PDF]</a>
-<a href='https://github.com/SharonZhu/Data-augmentation-using-GAN'>[code]</a>
+    </div>
+  </div>
 
 
-</div>
-<div class="spanner"></div>
-</div>
-
-<div class="paper" id="journals"><img class="paper" src="papers/neurocomputing.png" title="Auto-painter: Cartoon image generation from sketch by using conditional Wasserstein generative adversarial networks" />
-<div> <strong>Auto-painter: Cartoon image generation from sketch by using conditional Wasserstein generative adversarial networks</strong><br />
-<strong>Yifan Liu</strong>, Zengchang Qin, Tao Wan, Zhenbo Luo  <br />
-Neurocomputing (<strong>Neurocomputing</strong>), 2018<br /> 
-<a href='https://www.sciencedirect.com/science/article/pii/S0925231218306209'>[PDF]</a>
-<a href='https://youtu.be/g9rf-YFGgbg'>[demo]</a>
-<a href='https://github.com/irfanICMLL/Auto_painter'>[code]</a>
-
-</div>
-<div class="spanner"></div>
-</div>
+  
+  
+<section id="Biography" class="home-section">
+    <div class="container">
+      <h1>Biography</h1>
+      <div class="col-xs-12">
+        <p style="text-align:justify; text-justify:inter-ideograph;">
+        I am a Research Assistant Professror at <a href="http://www.wict.pku.edu.cn/mipl/" >MIPL Group</a> (led by Prof. <a href="http://59.108.48.34/tiki/yuxinpeng/">Yuxin Peng</a>) at Peking University. I received Ph.D. degree from <a href="https://www.icst.pku.edu.cn/index.htm">Wangxuan Institute of Computer Technology, Peking University</a> in 2020 (advised by Prof. <a href="http://59.108.48.34/tiki/yuxinpeng/">Yuxin Peng</a>), and B.E degree from <a href="https://cc.nankai.edu.cn/">College of Computer Science, Nankai University</a> in 2014 (advised by Prof. <a href="https://cv.nankai.edu.cn/">Jufeng Yang</a>). I have authored more than 20 papers in refereed international journals and conference proceedings, including  IJCV, IEEE TIP, IEEE TCSVT, CVPR, ACM MM, IJCAI and AAAI. My research interests include fine-grained visual analysis, video retrieval, muliti-modal content analysis. I was one of the recipients of <a href="https://www.ccf.org.cn/Awards/Awards/2020-12-31/720619.shtml">2020 CCF (China Computer Federation) Outstanding Doctoral Dissertation Award</a> and <a href="http://scholarship.baidu.com/">2018 Baidu Scholarship</a>, and awarded Young Elite Scientists Sponsorship Program by CAST in 2022.
+        </p>
+      </div>
+    </div>
+  </section>
 
 
-<div class="paper" id="IEA/AIE"><img class="paper" src="papers/ieaaie.png" title="Stock Volatility Prediction Using Recurrent Neural Networks with Sentiment Analysis" />
-<div> <strong>Stock Volatility Prediction Using Recurrent Neural Networks with Sentiment Analysis</strong><br />
-<strong>Yifan Liu</strong>, Zengchang Qin, Pengyu Li, and Tao Wan <br />
-International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (<strong>IEA/AIE</strong>), 2017<alert>[oral]</alert><br />
-<a href='https://arxiv.org/pdf/1705.02447.pdf'>[PDF]</a>
-<a href='https://github.com/irfanICMLL/EMM-for-stock-prediction'>[code]</a>
+ 
+  
 
-</div>
-<div class="spanner"></div>
-</div>
+<!-- 
+  <section id="Call for papers" class="home-section">
+    <div class="container">
+      <h1 style="color:red">Call for papers</h1>
+      <div class="col-xs-12">
+        <li>
+          <a href="https://sites.google.com/view/fgvc10/home">The 10th Workshop on Fine-Grained Visual Categorization</a>, <a href="https://cvpr.thecvf.com/">CVPR 2023</a>.
+         <br>
+          &nbsp; &nbsp; &nbsp; [Submission deadline: March 20, 2023 17:59 Pacific Standard Time].  More information <a href="https://sites.google.com/view/fgvc10/submission"> here</a>.
+         </br>
+        </li>
+
+      </div>
+    </div>
+  </section>
+  -->
+
+  <section id="News" class="home-section">
+    <div class="container">
+      <h1>News</h1>
+      <div class="col-xs-12">
+        <li>
+          2023-03-07: One paper is accepted by ACM TOMM. Congrats to Zijun Deng!
+        </li> 
+        
+        <li>
+          2023-02-28: One paper is accepted by CVPR 2023. Congrats to HsiaoYuan Hsu!
+        </li> 
+        
+        <li>
+          2023-01-10: Co-organizing the <a href="https://sites.google.com/view/fgvc10/home">FGVC10</a> workshop at CVPR 2023.
+        </li>
+        
+         <li>
+          2023-01-03: One paper is accepted by ACM TOMM. Congrats to Duoduo Feng!
+        </li> 
+        
+        <li>
+          2022-11-29: Invited to serve as Area Chair in ICME 2023.
+        </li>       
+        
+        <li>
+          2022-10-25: Awarded Young Elite Scientists Sponsorship Program by CAST（中国科协青年人才托举工程项目）.
+        </li> 
+        
+        <li>
+          2022-07-20: I give a talk “Fine-grained Cross-media Categorization and Retrieval” at <a href="http://chinamm.csig.org.cn/2022/tutorial.html"> ChinaMM 2022 </a>.
+        </li>
+        
+        <li>
+          2022-07-08: One paper is accepted by <a href="https://cje.ejournal.org.cn/">Chinese Journal of Electronics (《电子学报》英文版)</a>. Congrats to Zhaoda Ye!
+        </li>
+        
+         <li>
+          2022-07-01: One paper is accepted by ACM MM 2022. Congrats to Hongbo Sun!
+        </li>
+        
+        <li>
+          2022-03-31: One paper is accepted by ACM SIGIR 2022.
+        </li>
+        
+        <li>
+          2022-01-05: Co-organizing the <a href="https://sites.google.com/view/fgvc9/home">FGVC9</a> workshop at CVPR 2022.
+        </li>
+        
+        <li>
+          2021-07-04: Two papers are accepted by ACM MM 2021. Congrats to Zhen Han and <a href="https://roc-ng.github.io/">Peng Wu</a> !
+        </li>
+
+        <li>
+          2021-05-17: I give a talk "<a href="https://cs.pku.edu.cn/info/1020/3025.htm">Fine-grained Visual Categorization and Retrieval</a>" at Peking Unversity.
+        </li>
+
+        <li>
+          2021-01-31: I attend the <a href="https://www.ccf.org.cn/Focus/2021-01-19/721992.shtml">award ceremony of CCF (China Computer Federation) Outstanding Doctoral Dissertation Award</a>.
+        </li>
+
+        <li>
+          2020-12-10: Very honored to serve as SPC in IJCAI 2021.
+        </li>
+
+        <li>
+          2020-12-03: I give a talk "Use What You Have: Multi-modal Information in Fine-grained Analysis" at <a href="https://sites.google.com/view/webfg2020/home"> WebFG Workshop in ACCV 2020 </a>.
+        </li>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="Publications" class="home-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Selected Publications</h1>
+          
+          <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/CVPR 2023.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  PosterLayout: A New Benchmark and Approach for Content-Aware Visual-Textual Presentation Layout
+                </div>
+                <p></p>
+                <div class="authors">
+                  HsiaoYuan Hsu, <b>Xiangteng He</b>, Yuxin Peng, Hao Kong and Qing Zhang
+                </div>
+                 <div class="venue">
+                  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023
+                </div>
+               <div class="links">
+                 <a href="papers/CVPR 2023.pdf">[PDF]</a>
+                 <a href="https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023">[Code]</a>
+                 <a href="http://59.108.48.34/tiki/PosterLayout/">[Dataset]</a>
+                 <a href="https://mp.weixin.qq.com/s/yMLBINvS3ftJkWTuwFGDbQ">[Introduction]</a>
+                </div>
+              </div>
+            </div>
+          </br>
+          
+          <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/TOMM 2023 LFRGAN.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  LFR-GAN: Local Feature Refinement based Generative Adversarial Network for Text-to-Image Generation
+                </div>
+                <p></p>
+                <div class="authors">
+                  Zijun Deng, <b>Xiangteng He</b> and Yuxin Peng
+                </div>
+                 <div class="venue">
+                  ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2023
+                </div>
+               <div class="links">
+                 <a href="papers/TOMM 2023 LFRGAN.pdf">[PDF]</a>
+                 <a href="https://github.com/PKU-ICST-MIPL/LFR-GAN_TOMM2023">[Code]</a>
+                 <a href="https://mp.weixin.qq.com/s/zWM52FjzAVN0Jodyqotmig">[Introduction]</a>
+                </div>
+              </div>
+            </div>
+          </br>
+          
+          <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/TOMM 2023 MKVSE.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  MKVSE: Multimodal Knowledge Enhanced Visual-Semantic Embedding for Image-Text Retrieval
+                </div>
+                <p></p>
+                <div class="authors">
+                  Duoduo Feng, <b>Xiangteng He</b> and Yuxin Peng
+                </div>
+                 <div class="venue">
+                  ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2023
+                </div>
+               <div class="links">
+                 <a href="papers/TOMM 2023 MKVSE.pdf">[PDF]</a>
+                 <a href="papers/TOMM 2023 MKVS.bibtex">[BibTeX]</a>
+                 <a href="https://github.com/PKU-ICST-MIPL/MKVSE-TOMM2023">[Code]</a>
+                 <a href="https://mp.weixin.qq.com/s/czwMFL3WDctDqVYKangVyQ">[Introduction]</a>
+                </div>
+              </div>
+            </div>
+          </br>
+          
+          <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/ACM MM 2022.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  SIM-Trans: Structure Information Modeling Transformer for Fine-grained Visual Categorization
+                </div>
+                <p></p>
+                <div class="authors">
+                  Hongbo Sun, <b>Xiangteng He</b> and Yuxin Peng
+                </div>
+                 <div class="venue">
+                  ACM Multimedia Conference (ACM MM), 2022
+                </div>
+               <div class="links">
+                 <a href="papers/ACM MM 2022.pdf">[PDF]</a>
+                 <a href="papers/ACM MM 2022 PPT.pdf">[PPT]</a> 
+                 <a href="papers/ACM MM 2022.bibtex">[BibTeX]</a>
+                 <a href="https://github.com/PKU-ICST-MIPL/SIM-Trans_ACMMM2022">[Code]</a>
+                </div>
+              </div>
+            </div>
+          </br>
+          
+          
+           <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/SIGIR 2022.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Learn from Unlabeled Videos for Near-duplicate Video Retrieval
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b>#, Yulin Pan#, Mingqian Tang, Yiliang Lv and Yuxin Peng
+                </div>
+                 <div class="venue">
+                  ACM SIGIR Conference on Research and Development in Information Retrieval (ACM SIGIR), 2022
+                </div>
+               <div class="links">
+                  <a href="papers/SIGIR 2022.pdf">[PDF]</a> 
+                 <a href="papers/SIGIR 2022 PPT.pdf">[PPT]</a> 
+                  <a href="papers/SIGIR 2022.bibtex">[BibTeX]</a>
+                  <a href="https://mp.weixin.qq.com/s/u6Jd3LAUueFncZTY_pkwTA">[Introduction]</a>
+                </div>
+              </div>
+            </div>
+          </br>
+            
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/ACM MM 2021 HANET.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  HANet: Hierarchical Alignment Networks for Video-Text Retrieval
+                </div>
+                <p></p>
+                <div class="authors">
+                  Peng Wu, <b>Xiangteng He*</b>, Mingqian Tang, Yiliang Lv and Jing Liu
+                </div>
+                <div class="venue">
+                  ACM Multimedia Conference (ACM MM), 2021
+                </div>
+               <a href="papers/ACM MM 2021 HANET.pdf">[PDF]</a> 
+                <a href="papers/ACM MM 2021 HANET.bibtex">[BibTeX]</a>
+                <a href="https://github.com/Roc-Ng/HANet">[Code]</a>
+              </div>
+            </div>
+          </br>
 
 
-<div class="paper" id="pacling"><img class="paper" src="papers/ll.png" title="Logical Parsing from Natural Language Based on a Neural Translation Model" />
-<div> <strong>Logical Parsing from Natural Language Based on a Neural Translation Model</strong><br />
-<strong>Yifan Liu*</strong>, Liang Li*, Zengchang Qin, Pengyu Li, Tao Wan<br />
-Conference of the Pacific Association for Computational Linguistics (<strong>PACLING</strong>), 2017<alert>[oral]</alert><br />
-<a href='https://arxiv.org/pdf/1705.03389'>[pdf]</a> <br />
-</div>
-</div>
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/ACM MM 2021 VSAL.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Video Similarity and Alignment Learning on Partial Video Copy Detection
+                </div>
+                <p></p>
+                <div class="authors">
+                  Zhen Han, <b>Xiangteng He*</b>, Mingqian Tang and Yiliang Lv
+                </div>
+                <div class="venue">
+                  ACM Multimedia Conference (ACM MM), 2021
+                </div>
+                <a href="papers/ACM MM 2021 VSAL.bibtex.pdf">[PDF]</a> 
+                <a href="papers/ACM MM 2021 VSAL.bibtex">[BibTeX]</a>
+               <a href="https://pvcd-vsal.github.io/vsal/">[Project]</a>
+              </div>
+            </div>
+            </br>
 
 
-<div style="clear: both;">
-<div class="section">
-<h2 id="confpapers">Professional activities</h2>
-<div class="paper">
-<ul>
-<p><strong><font size="5"> Journals</font></p></strong>
-<p><font size="5">Neurocomputing</font></p>
-<p><strong><font size="5"> Conferences</font></p></strong>
-<p><font size="5"></font></p>
-</ul>
-</div>
-</div>
-</div>
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/TCSVT 2020.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Fine-grained Visual-textual Representation Learning
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b>  and  Yuxin Peng
+                </div>
+                <div class="venue">
+                  IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2020
+                </div>
+                <div class="links">
+                  <a href="papers/TCSVT 2020.pdf">[PDF]</a> 
+                  <a href="papers/TCSVT 2020.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/IJCV 2019.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Which and How Many Regions to Gaze: Focus Discriminative Regions for Fine-grained Visual Categorization
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b>, Yuxin Peng and  Junjie Zhao
+                </div>
+                <div class="venue">
+                  International Journal of Computer Vision (IJCV), 2019
+                </div>
+                <div class="links">
+                  <a href="papers/IJCV 2019.pdf">[PDF]</a> 
+                  <a href="papers/IJCV 2019.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/ACM MM 2019.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  A New Benchmark and Approach for Fine-grained Cross-media Retrieval
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b>, Yuxin Peng and Liu Xie
+                </div>
+                <div class="venue">
+                  ACM Multimedia Conference (ACM MM), 2019
+                </div>
+                <div class="links">
+                  <a href="papers/ACM MM 2019.pdf">[PDF]</a> 
+                  <a href="http://59.108.48.34/tiki/FGCrossNet/">[Dataset]</a> 
+                  <a href="https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019">[Code]</a>
+                  <a href="papers/ACM MM 2019.bibtex">[BibTeX]</a>
+                  <a href="https://mp.weixin.qq.com/s/BFp2EefZ1hC5Z3T5rcX4Zg">[Introduction]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/TCSVT 2019.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Fast Fine-grained Image Classification via Weakly Supervised Discriminative Localization
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b>, Yuxin Peng and Junjie Zhao
+                </div>
+                <div class="venue">
+                  IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2019
+                </div>
+                <div class="links">
+                  <a href="papers/TCSVT 2019.pdf">[PDF]</a> 
+                  <a href="https://github.com/PKU-ICST-MIPL/WSDL_TCSVT2019">[Code]</a>
+                  <a href="papers/TCSVT 2019.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/TIP 2018.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Object-Part Attention Model for Fine-grained Image Classification
+                </div>
+                  <i style="color:red">
+                  (This work was the highly cited paper by ESI, which received enough citations to place it in the top 1% of its academic field.)
+                  </i>
+                <div class="authors">
+                  Yuxin Peng, <b>Xiangteng He</b> and Junjie Zhao
+                </div>
+                <div class="venue">
+                  IEEE Transactions on Image Processing (TIP), 2018
+                </div>
+                <div class="links">
+                  <a href="papers/TIP 2018.pdf">[PDF]</a> 
+                  <a href="https://github.com/PKU-ICST-MIPL/OPAM_TIP2018">[Code]</a>
+                  <a href="papers/TIP 2018.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/IJCAI 2018.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  StackDRL: Stacked Deep Reinforcement Learning for Fine-grained Visual Categorization
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b>, Yuxin Peng and Junjie Zhao
+                </div>
+                <div class="venue">
+                  International Joint Conference on Artificial Intelligence (IJCAI), 2018
+                </div>
+                <div class="links">
+                  <a href="papers/IJCAI 2018.pdf">[PDF]</a> 
+                  <a href="papers/IJCAI 2018.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/ACM MM 2018.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Only Learn One Sample: Fine-Grained Visual Categorization with One Sample Training
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b> and Yuxin Peng
+                </div>
+                <div class="venue">
+                  ACM Multimedia Conference (ACM MM), 2018
+                </div>
+                <div class="links">
+                  <a href="papers/ACM MM 2018.pdf">[PDF]</a> 
+                  <a href="papers/ACM MM 2018.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/CVPR 2017.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Fine-grained Image Classification via Combining Vision and Language
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b> and Yuxin Peng
+                </div>
+                <div class="venue">
+                  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017
+                </div>
+                <div class="links">
+                  <a href="papers/CVPR 2017.pdf">[PDF]</a> 
+                  <a href="papers/CVPR 2017.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/AAAI 2017.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Weakly Supervised Learning of Part Selection Model with Spatial Constraints for Fine-grained Image Classification
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b> and Yuxin Peng
+                </div>
+                <div class="venue">
+                  AAAI Conference on Artificial Intelligence (AAAI), 2017
+                </div>
+                <div class="links">
+                  <a href="papers/AAAI 2017.pdf">[PDF]</a> 
+                  <a href="papers/AAAI 2017.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+            <div class="row publication">
+              <div class="pub-img col-sm-3 col-12">
+                <img src="papers/ACM MM 2017.png" alt="" />
+              </div>
+              <div class="text col-sm-9 col-12">
+                <div class="title">
+                  Fine-grained Discriminative Localization via Saliency-guided Faster R-CNN
+                </div>
+                <p></p>
+                <div class="authors">
+                  <b>Xiangteng He</b>, Yuxin Peng and Junjie Zhao
+                </div>
+                <div class="venue">
+                  ACM Multimedia Conference (ACM MM), 2017
+                </div>
+                <div class="links">
+                  <a href="papers/ACM MM 2017.pdf">[PDF]</a> 
+                  <a href="papers/ACM MM 2017.pdf">[Code]</a> 
+                  <a href="papers/ACM MM 2017.bibtex">[BibTeX]</a>
+                </div>
+              </div>
+            </div>
+            </br>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
 
 
-<div style="clear: both;">
-<div class="section">
-<h2 id="confpapers">Contests</h2>
-<div class="paper">
-<ul>
-<li><strong>AI Edge Contest, on <a href='https://signate.jp/competitions/143/leaderboard'>Semantic segmentation </a> <strong>Rank</strong>: 3/90</li>
-<li><strong>“ZhiYin maker” business plan competition,  <strong>Rank</strong>: 2/207.</li>
+  <section id="Honors" class="home-section">
+    <div class="container">
+      <h1>Honors</h1>
+      <div class="col-xs-12">
+        <li><a href="http://www.csig.org.cn/detail/3632">Young Elite Scientists Sponsorship Program by CAST, 2022</a>.</li>
+        <li><a href="https://www.ccf.org.cn/Awards/Awards/2020-12-31/720619.shtml">CCF (China Computer Federation) Outstanding Doctoral Dissertation Award (10 in total), 2020</a>.</li>
+        <li>Excellent Doctorate Dissertation Award of Peking University, 2020.</li>
+        <li>Excellent Graduates of Beijing, 2020.</li>
+        <li>Excellent Graduates of Peking University, 2020.</li>
+        <li>Huawei Scholarship, 2019.</li>
+        <li><a href="http://scholarship.baidu.com/">Baidu Scholarship</a> (6 in China, 10 in total of the world), 2018.</li>
+        <li>National Scholarship (Top 1), 2018.</li>
+        <li>Chancellor's Scholarship of Peking University, 2018.</li>
+        <li>Top 10 Outstanding Academic Students, School of EECS, Peking University, 2018.</li>
+        <li>Huawei Scholarship, 2017.</li>
+      </div>
+    </div>
+  </section> 
+
+  <!--
+  <section id="Competitions" class="home-section">
+    <div class="container">
+      <h1>Competitions</h1>
+      <div class="col-xs-12">
+        <li>2014-11 As a member of ICST team to participate in TRECVID 2014, achieving first place in interactive instance search task.
+        </li>
+
+        <li>2015-11 As a member of ICST team to participate in TRECVID 2015, achieving first place in instance search task.
+        </li>
+
+        <li>2016-11 As a member of ICST team to participate in TRECVID 2016, achieving first place in instance search task.
+        </li>
+      </div>
+    </div>
+  </section> 
+  -->
+<!-- 
+  <section id="Media Coverage" class="home-section">
+    <div class="container">
+      <h1>Media Coverage</h1>
+      <div class="col-xs-12">
+        <li>2020-12-31 CCF (China Computer Federation) Outstanding Doctoral Dissertation Award. 
+          <a href="https://www.ccf.org.cn/Awards/Awards/2020-12-31/720619.shtml">[CCF News]</a> 
+          <a href="https://mp.weixin.qq.com/s/hcCZX0fafsdnhCgshMEScA">[CCF CV News]</a>
+          <a href="https://mp.weixin.qq.com/s/_MdFZsklAInzwtkm1teFpQ">[FITEE News]</a>
+        </li>
+        <li>2020-08-24 Excellent Doctorate Dissertation Award of Peking University. 
+          <a href="https://www.wict.pku.edu.cn/xwgg/xwdt/2020/1329003.htm">[PKU WICT News]</a>
+        </li>
+        <li>2019-12-27 Science and Technology Youth.
+          <a href="https://www.sohu.com/a/358891181_100118081">[Duxinshu News]</a>
+        </li>
+        <li>2019-10-16 PKU FG-XMedia: A New Benchmark for Fine-grained Cross-media Retrieval.
+          <a href="https://www.jiqizhixin.com/articles/2019-10-15-14">[Synced News]</a>
+        </li>
+        <li>2018-12-28 Baidu Scholarship.
+          <a href="https://mp.weixin.qq.com/s/q0c3pLu_-cVp921pJBlZGg">[Baidu News]</a>
+          <a href="http://pku.cuepa.cn/show_more.php?tkey=&bkey=&doc_id=3060865">[PKU News]</a>
+        </li>
+      </div>
+    </div>
+  </section>  
+-->
+
+  
 
 
-</ul>
-<div class="spanner"></div>
-</div>
-</div>
-</div>
-
-<div style="clear: both;">
-<div class="section"><h2>Awards</h2>
-<div class="paper">
-<li><strong>“The outstanding graduates of Beijing”, 2016</li>
-</div>
-</div>
-</div>
-
-<div style="clear: both;">
-<div class="section"><h2>Friends</h2>
-<div class="paper">
-<a href='https://github.com/tianzhi0549'>Zhi Tian</a> (Adelaide Uni),
-<a href='https://tonghe90.github.io/'>Tong He</a> (Adelaide Uni),
-<a href='https://changqianyu.me/'>Changqian Yu</a> (HUST),
-<a href="https://github.com/sunke123/">Ke Sun</a> (USTC),
-<a href="https://github.com/PkuRainBow">Yuhui Yuan</a> (MSRA),
-</div>
-</div>
-</div>
 
 
-<div style="clear:both;">
-<p align="right"><font size="5">Last Updated on 11th Jul, 2019</a></font></p>
-<p align="right"><font size="5">Published with <a href='https://pages.github.com/'>GitHub Pages</a></font></p>
-</div>
 
-<hr>
-<div id="clustrmaps-widget"></div><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=ESrHfC12ZPaJA2MDjb1uqzEe7HKxktsmOkRHtb72vGI&cl=ffffff&w=a"></script>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cite</h4>
+        </div>
+        <div>
+          <pre><code class="modal-body tex"></code></pre>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+            <i class="fa fa-copy"></i> Copy
+          </a>
+          <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+            <i class="fa fa-download"></i> Download
+          </a>
+          <div id="modal-error"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//richardaecn.disqus.com/count.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    <script src="/js/hugo-academic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
 </html>
